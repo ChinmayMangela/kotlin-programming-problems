@@ -1,0 +1,11 @@
+
+
+Problem 3: Working with Lists (API Collections)
+
+Retrofit often returns lists of objects (e.g., a list of posts, a list of users).
+
+Task: Create a List of Product objects (from Problem 2), including at least 3-4 products, some with descriptions, some without.
+
+Task: Iterate through the list and print the name of each product.
+
+Task: Using a higher-order function (like filter or map), create a new list containing only the names of products that have a description. Print this new list.
