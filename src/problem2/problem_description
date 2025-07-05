@@ -1,0 +1,10 @@
+
+Problem 2: Null Safety with API Responses
+
+API responses can often have missing or null values. Retrofit and Kotlin's null safety go hand-in-hand.
+
+Task: Define a data class named Product with the following properties: id (Int), name (String), price (Double), and description (String, which can be null).
+
+Task: Create two Product instances: one with a description and one with a null description.
+
+Task: Write a function printProductDetails(product: Product) that prints the product's name and price. If the description is not null, also print it. Otherwise, print "No description available."
