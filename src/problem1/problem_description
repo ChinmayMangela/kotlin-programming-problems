@@ -1,0 +1,14 @@
+
+
+Problem 1: Data Class Creation & Basic Manipulation
+
+You'll be dealing with JSON data that Retrofit converts into Kotlin objects (data classes).
+
+Task: Define a data class named User with the following properties: id (Int), name (String), email (String).
+
+Task: Create two instances of the User data class.
+
+Task: Print the name and email of both users.
+
+Task: Create a copy of one user, changing only their email address, and print the new user's details.
+
