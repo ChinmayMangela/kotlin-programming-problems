@@ -1,0 +1,18 @@
+
+
+Problem 4: Handling Nested Data (More Realistic API)
+
+APIs often return nested JSON structures. Retrofit will map these to nested data classes.
+
+Task: Define two data classes:
+
+Address: street (String), city (String), zipCode (String).
+
+Company: name (String), catchPhrase (String).
+
+UserWithAddress: id (Int), name (String), email (String), address (Address), company (Company, nullable).
+
+Task: Create two UserWithAddress instances, one where company is null and one where company is defined.
+
+Task: For each user, print their name, city, and if company is not null, print the company's name. Use safe calls (?.) and the Elvis operator (?:) where appropriate.
+

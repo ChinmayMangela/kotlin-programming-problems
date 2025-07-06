@@ -1,0 +1,21 @@
+
+
+
+Problem 5: Type Checks and Smart Casts (Dealing with diverse API responses)
+
+Sometimes an API might return different types of objects in a collection, or you might need to perform operations based on an object's type.
+
+Task: Define a sealed class called ApiResponseItem with two data objects: Success and Error. Also define two data classes: UserResponse (with user: User from Problem 1) and ProductResponse (with product: Product from Problem 2).
+
+Task: Create a List<Any> that contains a mix of UserResponse, ProductResponse, ApiResponseItem.Success, and ApiResponseItem.Error objects.
+
+Task: Iterate through this List<Any>. Using when expressions and smart casts, print different messages based on the type of item:
+
+If UserResponse, print "User fetched: [User Name]".
+
+If ProductResponse, print "Product fetched: [Product Name]".
+
+If ApiResponseItem.Success, print "Operation successful!".
+
+If ApiResponseItem.Error, print "An error occurred!".
+
