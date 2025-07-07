@@ -1,0 +1,12 @@
+
+
+Problem 6: Extension Functions (Cleaner Code for Data Handling)
+
+Extension functions can make your data handling more readable and modular.
+
+Task: Add an extension function isPremiumUser(): Boolean to the User data class (from Problem 1). This function should return true if the user's id is even, false otherwise.
+
+Task: Add another extension function formattedPrice(): String to the Product data class (from Problem 2). This function should return the price formatted as a currency string (e.g., "₹123.45"). You can use String.format or DecimalFormat.
+
+Task: Create a list of users and a list of products. Use the extension functions when printing their details.
+
