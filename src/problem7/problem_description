@@ -1,0 +1,20 @@
+
+
+
+Problem 7: Interfaces and Object Expressions (Mimicking API Definitions)
+
+Retrofit's API definitions are interfaces. Understanding interfaces is key.
+
+Task: Define an interface ApiService with two abstract functions:
+
+fetchData(id: Int): String
+
+sendData(data: String): Boolean
+
+Task: Create an object (singleton) named MockApiService that implements the ApiService interface.
+
+For fetchData: If id is 1, return "Fetched data for ID 1". Otherwise, return "Data not found".
+
+For sendData: Always return true.
+
+Task: Call fetchData and sendData using MockApiService and print the results.
