@@ -2,7 +2,7 @@ package extension_functions
 
 
 fun main() {
-    val nums = listOf<Int>(1,2,3,4)
+    val nums = listOf(1,2,3,4)
 
     println(nums.averageSafe())
 }
